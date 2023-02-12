@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@700&family=Noto+Serif:ital@1&family=Open+Sans&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+i {
+    font-size: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.background_inicio {
+    background: linear-gradient(108deg, #ff8e479c, #00000066) center center / cover no-repeat fixed, url(../img/oesta.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: column;
+}
+
+.navbar-nav {
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    margin-inline: 20px;
+    padding: 5px;
+    gap: 20px;
+}
+
+.nav-link {
+    background-color: #faebd7b0;
+    color: #000000;
+}
+
+.nav-link:hover {
+    background-color: #14064ebe;
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #00aaff59;
+    color: #510da48a;
+    border-radius: 10px;
+}
+
+
+.section__principal {
+    background-color: #faebd71f;
+    width: 100%;
+    height: 100vh;
+    padding: 7rem;
+}
+
+.title {
+    font-family: 'Noto Serif Toto', serif;
+    color: #EEEEEE;
+    font-size: 80px;
+    text-align: center;
+    padding: 50px;
+}
+
+/*coloressss*/
+.t1 {
+    background-color: #14064ebe;
+}
+
+.t2 {
+    background-color: #00aaff91;
+}
+
+.t3 {
+    background-color: #14064ebe;
+}
+
+.t4 {
+    background-color: #00aaff91;
+}
+
+.t5 {
+    background-color: #14064ebe;
+}
+
+.t6 {
+    background-color: #00aaff91;
+}
+
+.t7 {
+    background-color: #14064ebe;
+}
+
+.t8 {
+    background-color: #00aaff91;
+}
+
+
+/*hover*/
+.t1:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.t2:hover {
+    background-color: #000000;
+}
+
+.t3:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.t4:hover {
+    background-color: #000000;
+}
+
+.t5:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.t6:hover {
+    background-color: #000000;
+}
+
+.t7:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.t8:hover {
+    background-color: #000000;
+}
+
+
+
+
+.sub__title {
+    background-color: #ffffff40;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    font-weight: none;
+    padding: 30px;
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+
+#article {
+    padding: 5% 0px;
+}
+
+.p1 {
+    background-color: #faebd7;
+    font-size: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    border-style: double;
+}
+
+.p2 {
+    background-color: #faebd7;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom-right-radius: 60px;
+    border-start-start-radius: 50px;
+    border-style: double;
+}
+
+.btn {
+    font-family: 'Noto Serif Toto', serif;
+    background-color: #ffffffbf;
+    color:#000000;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
+#footer {
+    background: linear-gradient(94deg, #ff8e4778, #00000042);
+    padding: 20px;
+    text-align: center;
+    border-top: double;
+}
+
+.footer__text {
+    background-color: #ffffffba;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/*promover*/
+.background__promover {
+    background: linear-gradient(94deg, rgb(255 142 71 / 47%), rgb(0 0 0 / 26%)) center center / cover no-repeat fixed, url(../img/librosmastaza.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container__promover {
+    font-family: 'Tenor Sans', sans-serif;
+    background-color: #d1d1d1;
+}
+
+
+
+
+.promover {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: #000000;
+    display: inline-grid;
+    color: #ffff;
+    margin: 0;
+    padding: 10px;
+}
+
+.h3 {
+    font-family: 'Noto Serif Toto', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #ffff;
+    background: rgb(52, 9, 121);
+    background: linear-gradient(333deg, rgba(52, 9, 121, 1) 26%, rgba(128, 107, 195, 1) 45%, rgba(0, 212, 255, 1) 89%);
+}
+
+.card {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+#tarjeta {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+}
+
+.textop {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    display: flex;
+}
+
+.card-body {
+    width: 100%;
+    font-size: 20px;
+}
+
+/*inspirate*/
+.container-textos {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 0.8rem;
+}
+
+main .container-textos .card {
+    position: relative;
+    width: 30rem;
+    border-radius: 10px;
+    transition: all .9s ease;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
+    margin: 20px;
+    overflow: hidden;
+}
+
+main .container-textos .card img {
+    border-radius: 10px;
+}
+
+main .container-textos .card p {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: start;
+    color: #ffffff;
+    transition: all .6s ease;
+    padding: .5rem;
+}
+
+main .container-textos .card:hover p {
+    background-color: #14064edc;
+    bottom: 0%;
+}
+
+.p3 {
+    background: linear-gradient(94deg, rgb(71 124 255 / 46%), rgb(0 0 0 / 0%));
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+    margin: 40px;
+    border-bottom-right-radius: 60px;
+    border-start-start-radius: 50px;
+    border-style: double;
+    display: flex;
+}
+
+
+.background__inspirate {
+    background: linear-gradient(94deg, rgb(255 142 71 / 47%), rgb(0 0 0 / 26%)) center center / cover no-repeat fixed, url(../img/libreria.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container__inspirate {
+    background-color: #d1d1d1;
+}
+
+
+/*INTERACTUAR*/
+
+.background__interactuar {
+    background: linear-gradient(94deg, rgb(255 142 71 / 47%), rgb(0 0 0 / 26%)) center center / cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container__interactuar{
+    background-color: #00000088;
+}
+.recomendaciones__lista {
+    font-weight: 500;
+    color: #000000;
+    background-color: #eeeeeed4;
+}
+
+.p-3 {
+    background-color: #fffafab3;
+    margin: 10px;
+}
+
+.ideas {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 3em;
+    font-weight: 500;
+    color: #000000;
+    background-color: #eeeeeed1;
+    padding: 20px;
+    border-bottom-style: groove;
+}
+
+
+
+.caja1 {
+    width: 100%;
+    height: 300px;
+    object-position: center;
+    resize: none;
+    border-color: #000000;
+}
+
+#interactuar__card {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Tenor Sans', sans-serif;
+    background: linear-gradient(94deg, rgb(71 124 255 / 46%), rgb(0 0 0 / 0%));
+    border-color: #000000;
+}
+
+/*contactos*/
+.background__contactanos {
+    background-color: #d1d1d1de;
+}
+.container__contactos{
+    background: linear-gradient(94deg, rgb(255 142 71 / 47%), rgb(0 0 0 / 26%)) center center / cover no-repeat fixed, url(../img/contactos.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form {
+    padding: 50px;
+}
+
+@media only screen and (min-width:320px) {
+    .section__principal {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .title {
+        padding: 0px;
+        font-size: 40px;
+    }
+
+    .sub__title {
+        font-size: 20px;
+    }
+
+    .p1 {
+        font-size: 20px;
+    }
+
+    .p2 {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .recomendaciones__lista {
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        text-align: start;
+        padding: 5px;
+    }
+
+    .ideas {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px;
+    }
+
+    main .container-textos .card {
+        position: relative;
+        width: 50rem;
+        height: 30rem;
+        border-radius: 10px;
+        transition: all .9s ease;
+        box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 82%);
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    main .container-textos .card img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .p3 {
+        font-size: 18px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .section__principal {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .title {
+        padding: 30px;
+        font-size: 60px;
+    }
+
+    .sub__title {
+        font-size: 30px;
+    }
+
+    .p1 {
+        font-size: 30px;
+    }
+
+    .p2 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 80%;
+        padding: 0px;
+    }
+
+    .ideas {
+        font-size: 20px;
+        text-align: left;
+        line-height: 2em;
+    }
+
+    main .container-textos .card {
+        position: relative;
+        width: 30rem;
+        border-radius: 10px;
+        transition: all .9s ease;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    main .container-textos .card img {
+        border-radius: 10px;
+    }
+
+    .p3 {
+        font-size: 25px;
+    }
+}
+
+
+
+@media only screen and (min-width: 900px) {
+
+    .section__principal {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        padding: 50px;
+        font-size: 70px;
+    }
+
+    .card {
+        width: 50%;
+        padding: 0px;
+    }
+
+    .ideas {
+        font-size: 20px;
+        text-align: justify;
+        line-height: 3em;
+    }
+
+    .p1 {
+        font-size: 30px;
+    }
+
+    .p2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .section__principal {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        padding: 70px;
+        font-size: 80px;
+    }
+
+    .card {
+        width: 40%;
+        padding: 0px;
+    }
+
+    .ideas {
+        font-size: 25px;
+        text-align: justify;
+        line-height: 3em;
+    }
+}
