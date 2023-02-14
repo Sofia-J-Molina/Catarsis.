@@ -1,0 +1,42 @@
+/*contactos*/
+.background__contactanos {
+    background-color: #d1d1d1de;
+}
+.container__contactos{
+    background: linear-gradient(94deg, #ff8e4778, #00000042) center center / cover no-repeat fixed, url(../img/contactos.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form {
+    padding: 50px;
+}
+.container-textos2{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 0.8rem;
+}
+.card__textosc{
+    text-align: center;
+    padding: 5px;
+}
+.p4{    
+    background-color: #ffffff8f;
+    border-style: double;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+
+}
+.serviciosycontacto{
+    margin: 10px;
+    gap: 10px;
+    display: initial;
+}

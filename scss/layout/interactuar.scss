@@ -1,0 +1,54 @@
+/*INTERACTUAR*/
+
+.background__interactuar {
+    background: linear-gradient(94deg, #ff8e4778, #00000042) center center / cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container__interactuar{
+    background-color: #00000088;
+}
+.recomendaciones__lista {
+    font-weight: 500;
+    color: #000000;
+    background-color: #eeeeeed4;
+}
+
+.p-3 {
+    background-color: #fffafab3;
+    margin: 10px;
+}
+
+.ideas {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 3em;
+    font-weight: 500;
+    color: #000000;
+    background-color: #eeeeeed1;
+    padding: 20px;
+    border-bottom-style: groove;
+}
+
+
+
+.caja1 {
+    width: 100%;
+    height: 300px;
+    object-position: center;
+    resize: none;
+    border-color: #000000;
+}
+
+#interactuar__card {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Tenor Sans', sans-serif;
+    background: linear-gradient(94deg, #477cff75, #00000000);
+    border-color: #000000;
+}

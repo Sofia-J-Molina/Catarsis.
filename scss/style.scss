@@ -1,0 +1,15 @@
+//import de base
+@import "./base/reset";
+@import "./base/vars";
+
+//import components
+@import "./components/header";
+@import "./components/footer";
+
+//imports de layout
+@import "./layout/index";
+@import "./layout/promover";
+@import "./layout/inspirate";
+@import "./layout/interactuar.scss";
+@import "./layout/contactanos";
+@import "./layout/medias";

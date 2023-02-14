@@ -1,0 +1,22 @@
+{
+  "name": "catarsis2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofia-J-Molina/Catarsis2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofia-J-Molina/Catarsis2/issues"
+  },
+  "homepage": "https://github.com/Sofia-J-Molina/Catarsis2#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

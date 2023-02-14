@@ -1,0 +1,71 @@
+/*inspirate*/
+.container-textos {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 0.8rem;
+}
+
+main .container-textos .card {
+    position: relative;
+    width: 30rem;
+    border-radius: 10px;
+    transition: all .9s ease;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
+    margin: 20px;
+    overflow: hidden;
+}
+
+main .container-textos .card img {
+    border-radius: 10px;
+}
+
+main .container-textos .card p {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: start;
+    color: #ffffff;
+    transition: all .6s ease;
+    padding: .5rem;
+}
+
+main .container-textos .card:hover p {
+    background-color: #14064edc;
+    bottom: 0%;
+}
+
+.p3 {
+    background: linear-gradient(94deg, #477cff75, #00000000);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+    margin: 40px;
+    border-bottom-right-radius: 60px;
+    border-start-start-radius: 50px;
+    border-style: double;
+    display: flex;
+}
+
+
+.background__inspirate {
+    background: linear-gradient(94deg, #ff8e4778, #00000042) center center / cover no-repeat fixed, url(../img/libreria.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container__inspirate {
+    background-color: #d1d1d1;
+}
