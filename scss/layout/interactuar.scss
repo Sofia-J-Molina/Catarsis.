@@ -30,10 +30,16 @@
     color: #000000;
     background-color: #eeeeeed1;
     padding: 20px;
-    border-bottom-style: groove;
+    border-style: double;
+    border-radius: 10px;
 }
 
-
+.ideas:hover{
+        box-shadow: 3px 10px 10px 10px #575757;
+        transition: .6s;
+        border: none;
+        cursor: pointer; 
+}
 
 .caja1 {
     width: 100%;

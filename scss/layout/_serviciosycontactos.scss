@@ -23,16 +23,23 @@
     align-items: start;
     gap: 0.8rem;
 }
+#card__1{
+    overflow: hidden;
+    transition:1ms;
+}
+#card__1:hover{
+    transform: translateY(-15px);
+}
 .card__textosc{
     text-align: center;
     padding: 5px;
 }
 .p4{    
     background-color: #ffffff8f;
-    border-style: double;
     font-size: 20px;
     font-weight: 500;
     margin: 20px;
+    border-radius: 15px;
 }
 .serviciosycontacto{
     margin: 10px;

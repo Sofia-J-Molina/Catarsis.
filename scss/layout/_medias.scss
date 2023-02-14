@@ -67,6 +67,17 @@
     .container-textos2{
         flex-direction: column;
     }
+
+    .fa-phone-volume:before, .fa-volume-control-phone:before {
+        font-size: 1em;
+    }
+    
+    .fa-square-whatsapp:before, .fa-whatsapp-square:before {
+        font-size: 1em;
+    }
+    .card{
+        box-shadow: 0px 0px 10px 5px #000000d0;
+    }
 }
 
 
@@ -127,6 +138,14 @@
 
     .container-textos2{
         flex-direction: column;
+    }
+    .fa-phone-volume:before, .fa-volume-control-phone:before {
+        font-size: 2em;
+    }
+    
+    
+    .fa-square-whatsapp:before, .fa-whatsapp-square:before {
+        font-size: 2em;
     }
 }
 

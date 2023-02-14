@@ -39,7 +39,7 @@ a {
 
 .navbar-toggler {
   background-color: #00aaff59;
-  color: #510da48a;
+  color: #8b8b8b8a;
   border-radius: 10px; }
 
 .section__principal {
@@ -140,22 +140,59 @@ a {
 .btn {
   font-family: 'Noto Serif Toto', serif;
   background-color: #ffffffbf;
+  padding: 0px;
   color: #000000;
-  font-size: 20px;
-  border-radius: 5px; }
+  font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #0000004d;
+  border: dotted; }
 
 #footer {
-  background: linear-gradient(94deg, #ff8e4778, #00000042);
+  background: linear-gradient(94deg, #00000030, #0000004f);
   padding: 20px;
-  text-align: center;
-  border-top: double; }
+  text-align: center; }
 
 .footer__text {
   background-color: #ffffffba;
   font-family: 'Noto Serif', serif;
   font-size: 20px;
   font-weight: 600;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 30px; }
+
+.footer__text:hover {
+  color: #f5f5f5;
+  background-color: #000000; }
+
+.fa-phone-volume:before {
+  color: #000000;
+  display: grid;
+  margin: 10px;
+  font-size: 2em; }
+
+.fa-square-whatsapp:before {
+  color: #437c37;
+  display: grid;
+  margin: 10px;
+  font-size: 2em; }
+
+.fa-square-whatsapp:hover {
+  color: #008000; }
+
+.fa-phone-volume:hover {
+  color: #000085; }
+
+.Erratica:hover {
+  color: #9f82ee; }
+
+.fa-facebook-f:hover {
+  color: #1877f2; }
+
+.fa-square-instagram:hover {
+  color: #C13584; }
+
+.fa-square-twitter:hover {
+  color: #00acee; }
 
 .background_inicio {
   background: linear-gradient(108deg, #ff8e479c, #00000066) center center/cover no-repeat fixed, url(../img/oesta.jpeg);
@@ -284,8 +321,8 @@ main .container-textos .card:hover p {
   margin: 40px;
   border-bottom-right-radius: 60px;
   border-start-start-radius: 50px;
-  border-style: double;
-  display: flex; }
+  display: flex;
+  box-shadow: 0px 0px 10px 5px #ffffff75; }
 
 .background__inspirate {
   background: linear-gradient(94deg, #ff8e4778, #00000042) center center/cover no-repeat fixed, url(../img/libreria.jpg);
@@ -326,7 +363,14 @@ main .container-textos .card:hover p {
   color: #000000;
   background-color: #eeeeeed1;
   padding: 20px;
-  border-bottom-style: groove; }
+  border-style: double;
+  border-radius: 10px; }
+
+.ideas:hover {
+  box-shadow: 3px 10px 10px 10px #575757;
+  transition: .6s;
+  border: none;
+  cursor: pointer; }
 
 .caja1 {
   width: 100%;
@@ -369,16 +413,23 @@ main .container-textos .card:hover p {
   align-items: start;
   gap: 0.8rem; }
 
+#card__1 {
+  overflow: hidden;
+  transition: 1ms; }
+
+#card__1:hover {
+  transform: translateY(-15px); }
+
 .card__textosc {
   text-align: center;
   padding: 5px; }
 
 .p4 {
   background-color: #ffffff8f;
-  border-style: double;
   font-size: 20px;
   font-weight: 500;
-  margin: 20px; }
+  margin: 20px;
+  border-radius: 15px; }
 
 .serviciosycontacto {
   margin: 10px;
@@ -430,7 +481,13 @@ main .container-textos .card:hover p {
     font-size: 18px;
     margin: 10px; }
   .container-textos2 {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .fa-phone-volume:before, .fa-volume-control-phone:before {
+    font-size: 1em; }
+  .fa-square-whatsapp:before, .fa-whatsapp-square:before {
+    font-size: 1em; }
+  .card {
+    box-shadow: 0px 0px 10px 5px #000000d0; } }
 
 @media only screen and (min-width: 768px) {
   .section__principal {
@@ -466,7 +523,11 @@ main .container-textos .card:hover p {
   .p3 {
     font-size: 25px; }
   .container-textos2 {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .fa-phone-volume:before, .fa-volume-control-phone:before {
+    font-size: 2em; }
+  .fa-square-whatsapp:before, .fa-whatsapp-square:before {
+    font-size: 2em; } }
 
 @media only screen and (min-width: 900px) {
   .section__principal {
