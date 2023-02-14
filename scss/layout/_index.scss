@@ -4,4 +4,25 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    .p1 {
+        font-family: $font-main;
+        background-color: #faebd7;
+        font-size: 25px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 60px;
+        border-style: double;
+    }
+
+    .p2 {
+        font-family: $font-main;
+        background-color: #faebd7;
+        font-size: 25px;
+        padding: 20px;
+        border-bottom-right-radius: 60px;
+        border-start-start-radius: 50px;
+        border-style: double;
+    }
+
+
 }

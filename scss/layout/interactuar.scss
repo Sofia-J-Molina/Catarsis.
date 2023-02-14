@@ -6,55 +6,57 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-.container__interactuar{
-    background-color: #00000088;
-}
-.recomendaciones__lista {
-    font-weight: 500;
-    color: #000000;
-    background-color: #eeeeeed4;
-}
 
-.p-3 {
-    background-color: #fffafab3;
-    margin: 10px;
-}
+    .container__interactuar {
+        background-color: #00000088;
 
-.ideas {
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    line-height: 3em;
-    font-weight: 500;
-    color: #000000;
-    background-color: #eeeeeed1;
-    padding: 20px;
-    border-style: double;
-    border-radius: 10px;
-}
+        .p-3 {
+            background-color: #fffafab3;
+            margin: 10px;
 
-.ideas:hover{
-        box-shadow: 3px 10px 10px 10px #575757;
-        transition: .6s;
-        border: none;
-        cursor: pointer; 
-}
+            .recomendaciones__lista {
+                font-weight: 500;
+                color: #000000;
+                background-color: #eeeeeed4;
+            }
 
-.caja1 {
-    width: 100%;
-    height: 300px;
-    object-position: center;
-    resize: none;
-    border-color: #000000;
-}
+            .ideas {
+                font-family: 'Tenor Sans', sans-serif;
+                font-size: 25px;
+                text-align: center;
+                line-height: 3em;
+                font-weight: 500;
+                color: #000000;
+                background-color: #eeeeeed1;
+                padding: 20px;
+                border-style: double;
+                border-radius: 10px;
 
-#interactuar__card {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    font-family: 'Tenor Sans', sans-serif;
-    background: linear-gradient(94deg, #477cff75, #00000000);
-    border-color: #000000;
+                &:hover {
+                    box-shadow: 3px 10px 10px 10px #575757;
+                    transition: .6s;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+
+            #interactuar__card {
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                margin: auto;
+                font-family: 'Tenor Sans', sans-serif;
+                background: linear-gradient(94deg, #477cff75, #00000000);
+                border-color: #000000;
+
+                .caja1 {
+                    width: 100%;
+                    height: 300px;
+                    object-position: center;
+                    resize: none;
+                    border-color: #000000;
+                }
+            }
+        }
+    }
 }

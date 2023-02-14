@@ -1,163 +1,146 @@
-.navbar-expand-lg .navbar-collapse {
-    flex-direction: column;
-}
+.background__interactuar {
+    background: linear-gradient(94deg, #ff8e4778, #00000042) center center/cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-.navbar-nav {
-    font-family: 'Noto Serif', serif;
-    font-size: 25px;
-    margin-inline: 20px;
-    padding: 5px;
-    gap: 20px;
-}
+    .navbar-expand-lg .navbar-collapse {
+        flex-direction: column;
 
-.nav-link {
-    background-color: #faebd7b0;
-    color: #000000;
-}
+        .navbar-toggler {
+            background-color: $color-second;
+            color: #8b8b8b8a;
+            border-radius: 10px;
+        }
 
-.nav-link:hover {
-    background-color: $color-main;
-    color: #ffffff;
-}
+        .navbar-nav {
+            font-family: 'Noto Serif', serif;
+            font-size: 25px;
+            margin-inline: 20px;
+            padding: 5px;
+            gap: 20px;
 
-.navbar-toggler {
-    background-color: $color-second;
-    color: #8b8b8b8a;
-    border-radius: 10px;
-}
+            .nav-link {
+                background-color: #faebd7b0;
+                color: #000000;
 
-
-.section__principal {
-    background-color: #faebd71f;
-    width: 100%;
-    height: 100vh;
-    padding: 7rem;
-}
-
-.title {
-    font-family: 'Noto Serif Toto', serif;
-    color: #EEEEEE;
-    font-size: 80px;
-    text-align: center;
-    padding: 50px;
-}
-
-/*coloressss*/
-.t1 {
-    background-color: $color-main;
-}
-
-.t2 {
-    background-color: $color-second;
-}
-
-.t3 {
-    background-color: $color-main;
-}
-
-.t4 {
-    background-color: $color-second;
-}
-
-.t5 {
-    background-color: $color-main;
-}
-
-.t6 {
-    background-color: $color-second;
-}
-
-.t7 {
-    background-color: $color-main;
-}
-
-.t8 {
-    background-color: $color-second;
-}
-
-
-/*hover*/
-.t1:hover {
-    background-color: #ffffff;
-    color: #000000;
-    
-}
-
-.t2:hover {
-    background-color: #000000;
-}
-
-.t3:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.t4:hover {
-    background-color: #000000;
-}
-
-.t5:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.t6:hover {
-    background-color: #000000;
-}
-
-.t7:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.t8:hover {
-    background-color: #000000;
+                &:hover {
+                    background-color: $color-main;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
 }
 
 
 
 
-.sub__title {
-    background-color: #ffffff40;
-    font-family: 'Noto Serif', serif;
-    text-align: center;
-    font-weight: none;
-    padding: 30px;
-}
+    .section__principal {
+        background-color: #faebd71f;
+        width: 100%;
+        height: 100vh;
+        padding: 7rem;
+
+        .title {
+            font-family: 'Noto Serif Toto', serif;
+            color: #EEEEEE;
+            font-size: 80px;
+            text-align: center;
+            padding: 50px;
+
+            /*coloressss*/
+            .t1 {
+                background-color: $color-main;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #000000;
+                }
+            }
+
+            .t2 {
+                background-color: $color-second;
+
+                &:hover {
+                    background-color: #000000;
+                }
+            }
+
+            .t3 {
+                background-color: $color-main;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #000000;
+                }
+            }
+
+            .t4 {
+                background-color: $color-second;
+
+                &:hover {
+                    background-color: #000000;
+                }
+            }
+
+            .t5 {
+                background-color: $color-main;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #000000;
+                }
+            }
+
+            .t6 {
+                background-color: $color-second;
+
+                &:hover {
+                    background-color: #000000;
+                }
+            }
+
+            .t7 {
+                background-color: $color-main;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #000000;
+                }
+            }
+
+            .t8 {
+                background-color: $color-second;
+
+                &:hover {
+                    background-color: #000000;
+
+                }
+            }
+
+            .promover {
+                font-family: 'Tenor Sans', sans-serif;
+                font-size: 40px;
+                text-align: center;
+                background-color: #000000;
+                display: inline-grid;
+                color: #ffff;
+                margin: 0;
+                padding: 10px;
+            }
+        }
+    }
 
 
-.container-fluid {
-    padding: 0;
-}
-
-#article {
-    padding: 5% 0px;
-}
-
-.p1 {
-    background-color: #faebd7;
-    font-size: 25px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 60px;
-    border-style: double;
-}
-
-.p2 {
-    background-color: #faebd7;
-    font-size: 25px;
-    padding: 20px;
-    border-bottom-right-radius: 60px;
-    border-start-start-radius: 50px;
-    border-style: double;
-}
 
 .btn {
     font-family: 'Noto Serif Toto', serif;
     background-color: #ffffffbf;
     padding: 0px;
-    color:#000000;
+    color: #000000;
     font-size: 25px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px #0000004d;
-    
 }

@@ -5,77 +5,44 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
 
-.container__promover {
-    font-family: 'Tenor Sans', sans-serif;
-    background-color: #d1d1d1;
-}
+    .container__promover {
+        font-family: 'Tenor Sans', sans-serif;
+        background-color: #d1d1d1;
 
+        .p1 {
+            font-family: $font-main;
+            background-color: #faebd7;
+            font-size: 25px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 60px;
+            border-style: double;
+        }
 
+        .p2 {
+            font-family: $font-main;
+            background-color: #faebd7;
+            font-size: 25px;
+            padding: 20px;
+            border-bottom-right-radius: 60px;
+            border-start-start-radius: 50px;
+            border-style: double;
+        }
 
+        .container__lectura {
+            font-family: 'Noto Serif', serif;
+            font-size: 20px;
 
-.promover {
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    background-color: #000000;
-    display: inline-grid;
-    color: #ffff;
-    margin: 0;
-    padding: 10px;
-}
+            .h3 {
+                font-family: 'Noto Serif Toto', serif;
+                text-align: center;
+                margin: 10px;
+                font-size: 25px;
+                color: #ffff;
+                background: #340979;
+                background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%);
+            }
+        }
 
-.h3 {
-    font-family: 'Noto Serif Toto', serif;
-    text-align: center;
-    margin: 10px;
-    font-size: 25px;
-    color: #ffff;
-    background: #340979;
-    background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%);
-}
-
-.card {
-    width: 40%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px;
-}
-
-#tarjeta {
-    width: 90%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 0;
-    margin: 20px;
-    padding: 40px;
-    display: flex;
-}
-
-.textop {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    padding: 10px;
-    color: #000000;
-    display: flex;
-}
-
-.card-body {
-    width: 100%;
-    font-size: 20px;
+    }
 }
