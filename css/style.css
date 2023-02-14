@@ -1,4 +1,9 @@
+/*fuente desde google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@700&family=Noto+Serif:ital@1&family=Open+Sans&family=Tenor+Sans&display=swap");
+/*font-family: 'Noto Serif', serif
+*font-family: 'Noto Serif Toto', serif
+*font-family: 'Open Sans', sans-serif
+*font-family: 'Tenor Sans', sans-serif*/
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +43,7 @@ a {
   color: #ffffff; }
 
 .navbar-toggler {
-  background-color: #00aaff59;
+  background-color: #00aaff91;
   color: #8b8b8b8a;
   border-radius: 10px; }
 
@@ -144,8 +149,7 @@ a {
   color: #000000;
   font-size: 25px;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px 5px #0000004d;
-  border: dotted; }
+  box-shadow: 5px 5px 5px 5px #0000004d; }
 
 #footer {
   background: linear-gradient(94deg, #00000030, #0000004f);
@@ -158,6 +162,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   padding: 10px;
+  margin: 20px;
   border-radius: 30px; }
 
 .footer__text:hover {
@@ -444,7 +449,7 @@ main .container-textos .card:hover p {
   .title {
     padding: 0px;
     font-size: 40px; }
-  .sub__title {
+  .promover {
     font-size: 20px; }
   .p1 {
     font-size: 20px; }
@@ -482,12 +487,35 @@ main .container-textos .card:hover p {
     margin: 10px; }
   .container-textos2 {
     flex-direction: column; }
-  .fa-phone-volume:before, .fa-volume-control-phone:before {
-    font-size: 1em; }
-  .fa-square-whatsapp:before, .fa-whatsapp-square:before {
-    font-size: 1em; }
+  .fa-phone-volume:before,
+  .fa-volume-control-phone:before {
+    font-size: 20px; }
+  .fa-square-whatsapp:before,
+  .fa-whatsapp-square:before {
+    font-size: 20px; }
   .card {
     box-shadow: 0px 0px 10px 5px #000000d0; } }
+
+@media only screen and (min-width: 480px) {
+  .section__principal {
+    width: 100%;
+    height: auto;
+    padding: 20px; }
+  .title {
+    padding: 10px;
+    font-size: 40px; }
+  .promover {
+    font-size: 30px; }
+  .fa-phone-volume:before,
+  .fa-volume-control-phone:before {
+    font-size: 20px; }
+  .fa-square-whatsapp:before,
+  .fa-whatsapp-square:before {
+    font-size: 20px; }
+  .p1 {
+    font-size: 25px; }
+  .p2 {
+    font-size: 25px; } }
 
 @media only screen and (min-width: 768px) {
   .section__principal {
@@ -497,7 +525,7 @@ main .container-textos .card:hover p {
   .title {
     padding: 30px;
     font-size: 60px; }
-  .sub__title {
+  .promover {
     font-size: 30px; }
   .p1 {
     font-size: 30px; }
@@ -524,10 +552,12 @@ main .container-textos .card:hover p {
     font-size: 25px; }
   .container-textos2 {
     flex-direction: column; }
-  .fa-phone-volume:before, .fa-volume-control-phone:before {
-    font-size: 2em; }
-  .fa-square-whatsapp:before, .fa-whatsapp-square:before {
-    font-size: 2em; } }
+  .fa-phone-volume:before,
+  .fa-volume-control-phone:before {
+    font-size: 25px; }
+  .fa-square-whatsapp:before,
+  .fa-whatsapp-square:before {
+    font-size: 25px; } }
 
 @media only screen and (min-width: 900px) {
   .section__principal {
@@ -548,7 +578,13 @@ main .container-textos .card:hover p {
   .p2 {
     font-size: 30px; }
   .container-textos2 {
-    flex-direction: row; } }
+    flex-direction: row; }
+  .fa-phone-volume:before,
+  .fa-volume-control-phone:before {
+    font-size: 30px; }
+  .fa-square-whatsapp:before,
+  .fa-whatsapp-square:before {
+    font-size: 30px; } }
 
 @media only screen and (min-width: 1200px) {
   .section__principal {
