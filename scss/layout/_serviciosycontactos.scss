@@ -32,7 +32,7 @@
                 #card__1 {
                     overflow: hidden;
                     transition: 1ms;
-                    
+                    box-shadow: 0px 0px 10px 5px #000000d0;
 
                     &:hover {
                         transform: translateY(-15px);
