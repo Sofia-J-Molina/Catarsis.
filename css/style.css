@@ -9,10 +9,9 @@
   padding: 0;
   box-sizing: border-box; }
 
-ul,
-ol,
-li {
-  list-style: none; }
+ul, ol, li {
+  list-style: none;
+  padding: 0px; }
 
 i {
   font-size: 20px; }
@@ -24,28 +23,46 @@ a {
   text-decoration: none;
   color: #000000; }
 
-.background__interactuar {
-  background: linear-gradient(94deg, #ff8e4778, #00000042) center center/cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-  .background__interactuar .navbar-expand-lg .navbar-collapse {
+.navbar-expand-lg {
+  flex-direction: column; }
+  .navbar-expand-lg .navbar-toggler {
+    background-color: #02020299;
+    color: #ffffff;
+    border-radius: 10px; }
+    .navbar-expand-lg .navbar-toggler:hover {
+      background-color: #ffffff;
+      color: #02020299; }
+    .navbar-expand-lg .navbar-toggler .fa-solid {
+      font-size: 30px; }
+  .navbar-expand-lg .fixed-top {
+    left: inherit; }
+  .navbar-expand-lg .offcanvas {
+    background: linear-gradient(94deg, #477cffcf, #5632efcf); }
+    .navbar-expand-lg .offcanvas .offcanvas-header {
+      font-family: 'Noto Serif', serif;
+      font-size: 25px;
+      margin-inline: 20px;
+      padding: 5px; }
+      .navbar-expand-lg .offcanvas .offcanvas-header .nav-link {
+        background-color: #faebd7b0;
+        color: #000000;
+        margin: 20px;
+        padding: 10px; }
+        .navbar-expand-lg .offcanvas .offcanvas-header .nav-link:hover {
+          background-color: #14064ebe;
+          color: #ffffff; }
+  .navbar-expand-lg .navbar-collapse {
     flex-direction: column; }
-    .background__interactuar .navbar-expand-lg .navbar-collapse .navbar-toggler {
-      background-color: #00aaff91;
-      color: #8b8b8b8a;
-      border-radius: 10px; }
-    .background__interactuar .navbar-expand-lg .navbar-collapse .navbar-nav {
+    .navbar-expand-lg .navbar-collapse .navbar-nav {
       font-family: 'Noto Serif', serif;
       font-size: 25px;
       margin-inline: 20px;
       padding: 5px;
       gap: 20px; }
-      .background__interactuar .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
+      .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
         background-color: #faebd7b0;
         color: #000000; }
-        .background__interactuar .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link:hover {
+        .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link:hover {
           background-color: #14064ebe;
           color: #ffffff; }
 
@@ -98,14 +115,15 @@ a {
       .section__principal .title .t8:hover {
         background-color: #000000; }
     .section__principal .title .promover {
-      font-family: 'Tenor Sans', sans-serif;
-      font-size: 40px;
+      font-family: 'Noto Serif Toto', serif;
+      border-bottom: double;
       text-align: center;
-      background-color: #000000;
       display: inline-grid;
-      color: #ffff;
+      color: #000000;
       margin: 0;
       padding: 10px; }
+      .section__principal .title .promover:hover {
+        color: #ffffff; }
 
 .btn {
   font-family: 'Noto Serif Toto', serif;
@@ -115,6 +133,9 @@ a {
   font-size: 25px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px #0000004d; }
+
+#article {
+  padding: 5% 0px; }
 
 #footer {
   background: linear-gradient(94deg, #00000030, #0000004f);
@@ -126,7 +147,6 @@ a {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
-    margin: 20px;
     border-radius: 30px; }
   #footer .footer__text:hover {
     color: #f5f5f5;
@@ -204,6 +224,15 @@ a {
     .background__promover .container__promover .container__lectura {
       font-family: 'Noto Serif', serif;
       font-size: 20px; }
+      .background__promover .container__promover .container__lectura #card-2 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif; }
+        .background__promover .container__promover .container__lectura #card-2 .body {
+          width: 100%;
+          font-size: 20px; }
       .background__promover .container__promover .container__lectura .h3 {
         font-family: 'Noto Serif Toto', serif;
         text-align: center;
@@ -225,14 +254,14 @@ a {
     .background__inspirate .container__inspirate .p3 {
       background: linear-gradient(94deg, #477cff75, #00000000);
       font-family: "Open Sans", sans-serif;
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 600;
-      padding: 20px;
-      margin: 40px;
       border-bottom-right-radius: 60px;
       border-start-start-radius: 50px;
       display: flex;
-      box-shadow: 0px 0px 10px 5px #ffffff75; }
+      box-shadow: 0px 0px 10px 5px #ffffff75;
+      margin-top: 20px;
+      margin-bottom: 30px; }
     .background__inspirate .container__inspirate .container-textos {
       text-align: center;
       width: 100%;
@@ -243,14 +272,12 @@ a {
       align-items: start;
       flex-wrap: wrap;
       margin: auto;
-      gap: 0.8rem; }
+      gap: 30px; }
       .background__inspirate .container__inspirate .container-textos .card {
         position: relative;
-        width: 30rem;
         border-radius: 10px;
         transition: all .9s ease;
-        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.815);
-        margin: 20px;
+        box-shadow: 0px 0px 10px 5px #000000d1;
         overflow: hidden; }
         .background__inspirate .container__inspirate .container-textos .card img {
           border-radius: 10px; }
@@ -281,14 +308,13 @@ a {
     background-color: #00000088; }
     .background__interactuar .container__interactuar .p-3 {
       background-color: #fffafab3;
-      margin: 10px; }
+      margin-bottom: 10px; }
       .background__interactuar .container__interactuar .p-3 .recomendaciones__lista {
         font-weight: 500;
         color: #000000;
         background-color: #eeeeeed4; }
       .background__interactuar .container__interactuar .p-3 .ideas {
         font-family: 'Tenor Sans', sans-serif;
-        font-size: 25px;
         text-align: center;
         line-height: 3em;
         font-weight: 500;
@@ -334,18 +360,16 @@ a {
       display: initial; }
       .container__contactos .background__contactanos .serviciosycontacto .container-textos2 {
         text-align: center;
-        padding: 20px;
         width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: start;
-        gap: 0.8rem; }
+        gap: 2rem; }
         .container__contactos .background__contactanos .serviciosycontacto .container-textos2 #card__1 {
           overflow: hidden;
           transition: 1ms; }
-          .container__contactos .background__contactanos .serviciosycontacto .container-textos2 #card__1 #card__1:hover {
+          .container__contactos .background__contactanos .serviciosycontacto .container-textos2 #card__1:hover {
             transform: translateY(-15px); }
           .container__contactos .background__contactanos .serviciosycontacto .container-textos2 #card__1 .card-title {
             font-weight: 600;
@@ -366,103 +390,145 @@ a {
       margin: 20px;
       border-radius: 15px; }
 
+.h3 {
+  font-family: 'Noto Serif Toto', serif;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  color: #ffff;
+  background: #340979;
+  background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%); }
+
 @media only screen and (min-width: 320px) {
+  /*header*/
   .section__principal {
     width: 100%;
     height: auto;
     padding: 10px; }
     .section__principal .title {
       padding: 0px;
-      font-size: 40px; }
+      font-size: 35px; }
     .section__principal .promover {
-      font-size: 20px; }
+      font-size: 25px; }
+  /*index-promover*/
   .p1 {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 10px; }
   .p2 {
-    font-size: 20px; }
-  .card {
-    width: 90%;
-    padding: 0px; }
-  p-3 .recomendaciones__lista {
+    font-size: 20px;
+    margin: 10px; }
+  /*promover*/
+  #card-2 {
+    width: 100%; }
+  /*Interactuar*/
+  .recomendaciones__lista {
     width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     text-align: start;
     padding: 5px; }
-  p-3 .ideas {
-    font-size: 20px;
-    line-height: 30px;
+  .ideas {
+    font-size: 20px; }
+  /*inspirate*/
+  .container-md .p3 {
+    font-size: 18px;
     padding: 20px; }
-  main .container-textos .card {
-    position: relative;
+  .container-md main .container-textos .card {
     width: 50rem;
     height: 30rem;
-    border-radius: 10px;
-    transition: all .9s ease;
-    box-shadow: 0px 0px 10px 5px #000000d1;
-    margin: 20px;
-    overflow: hidden; }
-    main .container-textos .card main .container-textos .card img {
+    margin: 0px;
+    gap: 10px; }
+    .container-md main .container-textos .card img {
       border-radius: 10px;
       width: 100%;
       height: 100%;
       object-fit: cover; }
-  .p3 {
-    font-size: 18px;
-    margin: 10px; }
+  /*serviciosycontactos*/
   .container-textos2 {
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 10px; }
+    .container-textos2 #card__1 {
+      width: 100%; }
   .fa-phone-volume:before,
   .fa-volume-control-phone:before {
     font-size: 20px; }
   .fa-square-whatsapp:before,
   .fa-whatsapp-square:before {
-    font-size: 20px; }
-  .card {
-    box-shadow: 0px 0px 10px 5px #000000d0; } }
+    font-size: 20px; } }
 
 @media only screen and (min-width: 480px) {
+  /*header*/
   .section__principal {
     width: 100%;
     height: auto;
     padding: 20px; }
-  .title {
-    padding: 10px;
-    font-size: 40px; }
-  .promover {
-    font-size: 30px; }
+    .section__principal .title {
+      padding: 10px;
+      font-size: 40px; }
+    .section__principal .promover {
+      font-size: 30px; }
+  /*index-promover*/
+  .p1 {
+    font-size: 25px; }
+  .p2 {
+    font-size: 25px; }
+  /*promover*/
+  #card-2 {
+    width: 90%; }
+  /*inspirate*/
+  main .container-textos .card {
+    width: 50rem;
+    height: 30rem;
+    margin: 20px;
+    gap: 10px; }
+    main .container-textos .card img {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  /*servicios y contacto.*/
+  .container-textos2 {
+    flex-direction: column;
+    object-position: center;
+    margin: 30px; }
+    .container-textos2 #card__1 {
+      width: 90%; }
+  /*footer*/
   .fa-phone-volume:before,
   .fa-volume-control-phone:before {
     font-size: 20px; }
   .fa-square-whatsapp:before,
   .fa-whatsapp-square:before {
-    font-size: 20px; }
-  .p1 {
-    font-size: 25px; }
-  .p2 {
-    font-size: 25px; } }
+    font-size: 20px; } }
 
 @media only screen and (min-width: 768px) {
+  /*header*/
   .section__principal {
     width: 100%;
     height: auto;
     padding: 30px; }
-  .title {
-    padding: 30px;
-    font-size: 60px; }
-  .promover {
-    font-size: 30px; }
+    .section__principal .title {
+      padding: 30px;
+      font-size: 60px; }
+    .section__principal .promover {
+      font-size: 30px; }
+  /*index-promover*/
   .p1 {
     font-size: 30px; }
   .p2 {
     font-size: 30px; }
-  .card {
-    width: 80%;
+  /*promover*/
+  #card-2 {
+    width: 70%;
     padding: 0px; }
+  /*Interactuar*/
   .ideas {
     font-size: 20px;
     text-align: left;
     line-height: 2em; }
+  /*inspirate*/
+  .p3 {
+    font-size: 25px; }
   main .container-textos .card {
     position: relative;
     width: 30rem;
@@ -471,12 +537,15 @@ a {
     box-shadow: 0px 0px 10px 5px #000000d0;
     margin: 20px;
     overflow: hidden; }
-  main .container-textos .card img {
-    border-radius: 10px; }
-  .p3 {
-    font-size: 25px; }
+    main .container-textos .card img {
+      border-radius: 10px; }
+  /*servicios y contacto*/
   .container-textos2 {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-inline: 100px; }
+    .container-textos2 #card__1 {
+      width: 70%; }
+  /*footer*/
   .fa-phone-volume:before,
   .fa-volume-control-phone:before {
     font-size: 25px; }
@@ -485,25 +554,34 @@ a {
     font-size: 25px; } }
 
 @media only screen and (min-width: 900px) {
+  /*header*/
   .section__principal {
     width: 100%;
     height: auto; }
-  .title {
-    padding: 50px;
-    font-size: 70px; }
-  .card {
-    width: 50%;
-    padding: 0px; }
-  .ideas {
-    font-size: 20px;
-    text-align: justify;
-    line-height: 3em; }
+    .section__principal .title {
+      padding: 50px;
+      font-size: 70px; }
+  /*index-promover*/
   .p1 {
     font-size: 30px; }
   .p2 {
     font-size: 30px; }
+  /*promover*/
+  #card-2 {
+    width: 55%;
+    padding: 0px; }
+  /*Interactuar*/
+  .ideas {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 3em; }
+  /*servicios y contacto*/
   .container-textos2 {
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 0px; }
+    .container-textos2 #card__1 {
+      width: 50%; }
+  /*footer*/
   .fa-phone-volume:before,
   .fa-volume-control-phone:before {
     font-size: 30px; }
@@ -512,18 +590,21 @@ a {
     font-size: 30px; } }
 
 @media only screen and (min-width: 1200px) {
+  /*header*/
   .section__principal {
     width: 100%;
     height: auto; }
-  .title {
-    padding: 70px;
-    font-size: 80px; }
-  .card {
+    .section__principal .title {
+      padding: 70px;
+      font-size: 80px; }
+  /*promover*/
+  #card-2 {
     width: 40%;
     padding: 0px; }
   .ideas {
     font-size: 25px;
     text-align: justify;
     line-height: 3em; }
+  /*servicios y contacto*/
   .container-textos2 {
     flex-direction: row; } }

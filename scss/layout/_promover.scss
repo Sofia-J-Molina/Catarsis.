@@ -33,6 +33,19 @@
             font-family: 'Noto Serif', serif;
             font-size: 20px;
 
+            #card-2 {
+                text-align: center;
+                margin: auto;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                font-family: 'Open Sans', sans-serif;
+
+                .body {
+                    width: 100%;
+                    font-size: 20px;
+                }
+            }
+
             .h3 {
                 font-family: 'Noto Serif Toto', serif;
                 text-align: center;
@@ -43,6 +56,5 @@
                 background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%);
             }
         }
-
     }
 }

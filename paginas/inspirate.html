@@ -18,17 +18,22 @@
 <body class="background__inspirate">
     <!--header-->
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#"></a>
+            <button class=" navbar-toggler fixed-top" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="offcanvas-title" id="offcanvasNavbarLabel"> Menú </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-header">
+                    <ul>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="../index.html"><i
+                            <a class="nav-link" aria-current="page" href="../index.html"><i
                                     class="fa-sharp fa-solid fa-house"></i> Inicio</a>
                         </li>
                         <li class="nav-item">
@@ -41,12 +46,34 @@
                             <a class="nav-link" href="../paginas/interactuar.html">Interactuar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../paginas/serviciosycontactos.html">Servicios / Contacto</a>
+                            <a class="nav-link" href="../paginas/serviciosycontactos.html">Servicios /
+                                Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html"><i
+                                class="fa-sharp fa-solid fa-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/promover.html">Promover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inspirate.html">Inspirate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/interactuar.html">Interactuar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/serviciosycontactos.html">Servicios /
+                            Contacto</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
         <section class="container-fluid">
             <div class="section__principal">
                 <div class="title">
@@ -104,7 +131,7 @@
                         mañana ya no."" <br>
                         -Gilraen Eärfalas.
                     </p>
-                    <img src="../img/cuatro.jpg" alt="cardio" />
+                    <img src="../img/cuatro.jpg" alt="libro mas paisaje" title="libro mas paisaje"/>
                 </div>
                 <div class="card">
                     <h3>Silencio, tranquilidad y austeridad.</h3>
@@ -118,7 +145,7 @@
                         y lo que sentimos lo enjuaga la abigarrada confusion del mundo." <br>
                         -Goethe.
                     </p>
-                    <img src="../img/tres.jpg" alt="cardio" />
+                    <img src="../img/tres.jpg" alt="libro mas paisaje" title="libro mas paisaje" />
                 </div>
                 <div class="card">
                     <h3>Amor, vida y muerte.</h3>
@@ -135,7 +162,7 @@
                         se las ingenia para que ninguno vuelva a salir —" <br>
                         -Emily Dickinson.
                     </p>
-                    <img src="../img/dos.jpg" alt="cardio" />
+                    <img src="../img/dos.jpg" alt="chica con un libro mas paisaje" title="libro mas paisaje" />
                 </div>
                 <div class="card">
                     <h3>Proposito de año nuevo.</h3>
@@ -150,7 +177,7 @@
                         Sólo fantasmas que he amado hasta pulverizar mi conciencia y mi memoria." <br>
                         -Alejandra Pizarnik
                     </p>
-                    <img src="../img/uno.jpg" alt="cardio" />
+                    <img src="../img/uno.jpg" alt="libro mas paisaje" title="libro mas paisaje" />
                 </div>
             </div>
 

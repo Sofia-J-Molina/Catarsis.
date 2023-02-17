@@ -1,18 +1,50 @@
-.background__interactuar {
-    background: linear-gradient(94deg, #ff8e4778, #00000042) center center/cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.navbar-expand-lg {
+    flex-direction: column;
 
-    .navbar-expand-lg .navbar-collapse {
-        flex-direction: column;
+    .navbar-toggler {
+        background-color: #02020299;
+        color: #ffffff;
+        border-radius: 10px;
 
-        .navbar-toggler {
-            background-color: $color-second;
-            color: #8b8b8b8a;
-            border-radius: 10px;
+        &:hover {
+            background-color: #ffffff;
+            color: #02020299;
         }
+
+        .fa-solid {
+            font-size: 30px;
+        }
+    }
+
+    .fixed-top {
+        left: inherit;
+    }
+
+    .offcanvas {
+        background: linear-gradient(94deg, #477cffcf, #5632efcf);
+
+        .offcanvas-header {
+            font-family: 'Noto Serif', serif;
+            font-size: 25px;
+            margin-inline: 20px;
+            padding: 5px;
+
+            .nav-link {
+                background-color: #faebd7b0;
+                color: #000000;
+                margin: 20px;
+                padding: 10px;
+
+                &:hover {
+                    background-color: $color-main;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
 
         .navbar-nav {
             font-family: 'Noto Serif', serif;
@@ -37,101 +69,105 @@
 
 
 
-    .section__principal {
-        background-color: #faebd71f;
-        width: 100%;
-        height: 100vh;
-        padding: 7rem;
 
-        .title {
-            font-family: 'Noto Serif Toto', serif;
-            color: #EEEEEE;
-            font-size: 80px;
-            text-align: center;
-            padding: 50px;
+.section__principal {
+    background-color: #faebd71f;
+    width: 100%;
+    height: 100vh;
+    padding: 7rem;
 
-            /*coloressss*/
-            .t1 {
-                background-color: $color-main;
+    .title {
+        font-family: 'Noto Serif Toto', serif;
+        color: #EEEEEE;
+        font-size: 80px;
+        text-align: center;
+        padding: 50px;
 
-                &:hover {
-                    background-color: #ffffff;
-                    color: #000000;
-                }
+        /*coloressss*/
+        .t1 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
             }
+        }
 
-            .t2 {
-                background-color: $color-second;
+        .t2 {
+            background-color: $color-second;
 
-                &:hover {
-                    background-color: #000000;
-                }
-            }
-
-            .t3 {
-                background-color: $color-main;
-
-                &:hover {
-                    background-color: #ffffff;
-                    color: #000000;
-                }
-            }
-
-            .t4 {
-                background-color: $color-second;
-
-                &:hover {
-                    background-color: #000000;
-                }
-            }
-
-            .t5 {
-                background-color: $color-main;
-
-                &:hover {
-                    background-color: #ffffff;
-                    color: #000000;
-                }
-            }
-
-            .t6 {
-                background-color: $color-second;
-
-                &:hover {
-                    background-color: #000000;
-                }
-            }
-
-            .t7 {
-                background-color: $color-main;
-
-                &:hover {
-                    background-color: #ffffff;
-                    color: #000000;
-                }
-            }
-
-            .t8 {
-                background-color: $color-second;
-
-                &:hover {
-                    background-color: #000000;
-
-                }
-            }
-
-            .promover {
-                font-family: 'Tenor Sans', sans-serif;
-                font-size: 40px;
-                text-align: center;
+            &:hover {
                 background-color: #000000;
-                display: inline-grid;
-                color: #ffff;
-                margin: 0;
-                padding: 10px;
+            }
+        }
+
+        .t3 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t4 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+            }
+        }
+
+        .t5 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t6 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+            }
+        }
+
+        .t7 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t8 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+
+            }
+        }
+
+        .promover {
+            font-family: 'Noto Serif Toto', serif;
+            border-bottom: double;
+            text-align: center;
+            display: inline-grid;
+            color: #000000;
+            margin: 0;
+            padding: 10px;
+
+            &:hover {
+                color: #ffffff;
             }
         }
     }
+}
 
 
 
@@ -143,4 +179,8 @@
     font-size: 25px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px #0000004d;
+}
+
+#article {
+    padding: 5% 0px;
 }
