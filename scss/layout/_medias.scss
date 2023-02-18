@@ -5,6 +5,7 @@
         overflow: scroll;
     }
 
+
     .section__principal {
         width: 100%;
         height: auto;
@@ -91,9 +92,7 @@
 @media only screen and (min-width:480px) {
 
     /*header*/
-    .offcanvas {
-        overflow: scroll;
-    }
+
     .section__principal {
         width: 100%;
         height: auto;
@@ -119,10 +118,10 @@
     }
 
     /*promover*/
-    #card-2 {
-        width: 90%;
-    }
 
+    #card-2 {
+        width: 100%;
+    }
 
     /*inspirate*/
 
@@ -149,7 +148,7 @@
         margin: 30px;
 
         #card__1 {
-            width: 90%;
+            width: 100%;
         }
     }
 
@@ -237,7 +236,7 @@
         margin-inline: 100px;
 
         #card__1 {
-            width: 70%;
+            width: 100%;
         }
     }
 
