@@ -23,6 +23,12 @@ a {
   text-decoration: none;
   color: #000000; }
 
+.background__inspirate .container__inspirate .container-textos .card img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
 .navbar-expand-lg {
   flex-direction: column; }
   .navbar-expand-lg .navbar-toggler {
@@ -68,9 +74,9 @@ a {
           color: #ffffff; }
 
 .section__principal {
-  background-color: #faebd71f;
   width: 100%;
   height: 100vh;
+  background-color: #faebd71f;
   padding: 7rem; }
   .section__principal .title {
     font-family: 'Noto Serif Toto', serif;
@@ -83,7 +89,8 @@ a {
       background-color: #14064ebe; }
       .section__principal .title .t1:hover {
         background-color: #ffffff;
-        color: #000000; }
+        color: #000000;
+        box-shadow: 0px 0px 5px 2px #000000; }
     .section__principal .title .t2 {
       background-color: #00aaff91; }
       .section__principal .title .t2:hover {
@@ -92,7 +99,8 @@ a {
       background-color: #14064ebe; }
       .section__principal .title .t3:hover {
         background-color: #ffffff;
-        color: #000000; }
+        color: #000000;
+        box-shadow: 0px 0px 5px 2px #000000; }
     .section__principal .title .t4 {
       background-color: #00aaff91; }
       .section__principal .title .t4:hover {
@@ -101,7 +109,8 @@ a {
       background-color: #14064ebe; }
       .section__principal .title .t5:hover {
         background-color: #ffffff;
-        color: #000000; }
+        color: #000000;
+        box-shadow: 0px 0px 5px 2px #000000; }
     .section__principal .title .t6 {
       background-color: #00aaff91; }
       .section__principal .title .t6:hover {
@@ -110,7 +119,8 @@ a {
       background-color: #14064ebe; }
       .section__principal .title .t7:hover {
         background-color: #ffffff;
-        color: #000000; }
+        color: #000000;
+        box-shadow: 0px 0px 5px 2px #000000; }
     .section__principal .title .t8 {
       background-color: #00aaff91; }
       .section__principal .title .t8:hover {
@@ -125,18 +135,6 @@ a {
       padding: 10px; }
       .section__principal .title .promover:hover {
         color: #ffffff; }
-
-.btn {
-  font-family: 'Noto Serif Toto', serif;
-  background-color: #ffffffbf;
-  padding: 0px;
-  color: #000000;
-  font-size: 25px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px 5px #0000004d; }
-
-#article {
-  padding: 5% 0px; }
 
 #footer {
   background: linear-gradient(94deg, #00000030, #0000004f);
@@ -174,6 +172,67 @@ a {
     color: #C13584; }
   #footer .fa-square-twitter:hover {
     color: #00acee; }
+  #footer .footer {
+    font-family: 'Noto Serif Toto', serif;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 10px;
+    /*coloressss*/ }
+    #footer .footer .t1 {
+      background-color: #14064ebe; }
+      #footer .footer .t1:hover {
+        background-color: #ffffff;
+        color: #000000; }
+    #footer .footer .t2 {
+      background-color: #00aaff91; }
+      #footer .footer .t2:hover {
+        background-color: #000000; }
+    #footer .footer .t3 {
+      background-color: #14064ebe; }
+      #footer .footer .t3:hover {
+        background-color: #ffffff;
+        color: #000000; }
+    #footer .footer .t4 {
+      background-color: #00aaff91; }
+      #footer .footer .t4:hover {
+        background-color: #000000; }
+    #footer .footer .t5 {
+      background-color: #14064ebe; }
+      #footer .footer .t5:hover {
+        background-color: #ffffff;
+        color: #000000; }
+    #footer .footer .t6 {
+      background-color: #00aaff91; }
+      #footer .footer .t6:hover {
+        background-color: #000000; }
+    #footer .footer .t7 {
+      background-color: #14064ebe; }
+      #footer .footer .t7:hover {
+        background-color: #ffffff;
+        color: #000000; }
+    #footer .footer .t8 {
+      background-color: #00aaff91; }
+      #footer .footer .t8:hover {
+        background-color: #000000; }
+
+#article {
+  padding: 5% 0px; }
+  #article .btn {
+    font-family: 'Noto Serif Toto', serif;
+    background-color: #ffffff54;
+    padding: 0px;
+    color: #000000;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #02020254; }
+  #article .h3 {
+    font-family: 'Noto Serif Toto', serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    color: #ffff;
+    background: #340979;
+    background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%); }
 
 .background_inicio {
   background: linear-gradient(108deg, #ff8e479c, #00000066) center center/cover no-repeat fixed, url(../img/oesta.jpeg);
@@ -234,14 +293,6 @@ a {
         .background__promover .container__promover .container__lectura #card-2 .body {
           width: 100%;
           font-size: 20px; }
-      .background__promover .container__promover .container__lectura .h3 {
-        font-family: 'Noto Serif Toto', serif;
-        text-align: center;
-        margin: 10px;
-        font-size: 25px;
-        color: #ffff;
-        background: #340979;
-        background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%); }
 
 /*inspirate*/
 .background__inspirate {
@@ -279,8 +330,6 @@ a {
         transition: all .9s ease;
         box-shadow: 0px 0px 10px 5px #000000d1;
         overflow: hidden; }
-        .background__inspirate .container__inspirate .container-textos .card img {
-          border-radius: 10px; }
         .background__inspirate .container__inspirate .container-textos .card p {
           position: absolute;
           bottom: 100%;
@@ -299,7 +348,7 @@ a {
 
 /*INTERACTUAR*/
 .background__interactuar {
-  background: linear-gradient(94deg, #ff8e4778, #00000042) center center/cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
+  background: linear-gradient(108deg, #ff8e479c, #00000066) center center/cover no-repeat fixed, url(../img/maquinadeescribir.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -345,7 +394,7 @@ a {
 
 /*contactos*/
 .container__contactos {
-  background: linear-gradient(94deg, #ff8e4778, #00000042) center center/cover no-repeat fixed, url(../img/contactos.jpg);
+  background: linear-gradient(108deg, #ff8e479c, #00000066) center center/cover no-repeat fixed, url(../img/contactos.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -389,15 +438,6 @@ a {
       font-weight: 600;
       margin: 20px;
       border-radius: 15px; }
-
-.h3 {
-  font-family: 'Noto Serif Toto', serif;
-  text-align: center;
-  margin: 10px;
-  font-size: 25px;
-  color: #ffff;
-  background: #340979;
-  background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%); }
 
 @media only screen and (min-width: 320px) {
   /*header*/
@@ -448,6 +488,7 @@ a {
     padding: 10px; }
     .container-textos2 #card__1 {
       width: 100%; }
+  /*footer*/
   .fa-phone-volume:before,
   .fa-volume-control-phone:before {
     font-size: 20px; }
@@ -476,9 +517,9 @@ a {
     width: 100%; }
   /*inspirate*/
   main .container-textos .card {
-    font-size: 18px;
     width: 50rem;
     height: 30rem;
+    font-size: 18px;
     margin: 20px;
     gap: 10px; }
     main .container-textos .card img {

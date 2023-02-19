@@ -1,7 +1,7 @@
 /*contactos*/
 
 .container__contactos {
-    background: linear-gradient(94deg, #ff8e4778, #00000042) center center / cover no-repeat fixed, url(../img/contactos.jpg);
+    background:linear-gradient(108deg, #ff8e479c, #00000066) center center/cover no-repeat fixed, url(../img/contactos.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,12 +64,3 @@
         }
     }
 }
-            .h3 {
-                font-family: 'Noto Serif Toto', serif;
-                text-align: center;
-                margin: 10px;
-                font-size: 25px;
-                color: #ffff;
-                background: #340979;
-                background: linear-gradient(333deg, #340979 26%, #806bc3 45%, #00d4ff 89%);
-            }

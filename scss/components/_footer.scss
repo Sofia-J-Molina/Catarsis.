@@ -56,4 +56,83 @@
         color: #00acee;
     }
 
+    .footer {
+        font-family: 'Noto Serif Toto', serif;
+        color: #EEEEEE;
+        text-align: center;
+        padding: 10px;
+
+
+        /*coloressss*/
+        .t1 {
+            background-color: $color-main;
+
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t2 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+            }
+        }
+
+        .t3 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t4 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+            }
+        }
+
+        .t5 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t6 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+            }
+        }
+
+        .t7 {
+            background-color: $color-main;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+
+        .t8 {
+            background-color: $color-second;
+
+            &:hover {
+                background-color: #000000;
+
+            }
+        }
+
+    }
 }

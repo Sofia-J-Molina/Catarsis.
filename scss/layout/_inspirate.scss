@@ -42,7 +42,7 @@
                 overflow: hidden;
 
                 img {
-                    border-radius: 10px;
+                    @extend %imagen;
                 }
 
                 p {
@@ -58,7 +58,8 @@
                     transition: all .6s ease;
                     padding: .5rem;
                 }
-                &:hover p{
+
+                &:hover p {
                     background-color: #14064edc;
                     bottom: 0%;
                 }
