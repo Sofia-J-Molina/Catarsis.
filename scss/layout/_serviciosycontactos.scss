@@ -36,7 +36,9 @@
                     &:hover {
                         transform: translateY(-15px);
                     }
-
+                    .card-img-top{
+                        @extend %imagen;
+                    }
                     .card-title {
                         font-weight: 600;
                         font-family: $font-main ;

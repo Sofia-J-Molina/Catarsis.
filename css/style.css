@@ -23,7 +23,7 @@ a {
   text-decoration: none;
   color: #000000; }
 
-.background__inspirate .container__inspirate .container-textos .card img {
+.background__inspirate .container__inspirate .container-textos .card img, .container__contactos .background__contactanos .serviciosycontacto .container-textos2 #card__1 .card-img-top {
   border-radius: 10px;
   width: 100%;
   height: 100%;
